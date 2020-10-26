@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Formulario - DOM</title>
+    <script src="./control.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <form id="formulario" action="./index.html" method="GET">
+            <h1>Ingreso al Sistema</h1>
+            <div class="grupo">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" autofocus>
+            </div>
+            <div class="grupo">
+                <label for="clave">Clave:</label>
+                <input type="password" name="clave" id="clave">
+            </div>
+            <input type="submit" value="Ingresar" id="ingresar">
+        </form>
+    </div>
+
+</body>
+
+</html>
